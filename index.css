@@ -390,4 +390,11 @@ font-size: 3rem;
   .register p{
     font-size: 1rem;
   }
+  .btn{
+    padding: 1rem 1.5rem;
+    font-size: 1.3rem;
+  }
+  .register span{
+    font-size: 0.8rem;
+  }
 }
