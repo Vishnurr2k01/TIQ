@@ -352,4 +352,42 @@ body {
     font-weight: bold;
     color: #532516;
   }
+  .content-2{
+    display: block;
+
+  }
+  .content__div1{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  .content__div2{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  .content-2 img{
+  height: 10rem;
+    width: 8rem;
+    display: flex;
+    margin: auto;
+  }
+  .content-2 h2{
+    font-size: 1.5rem;
+  }
+  .content-2 p{
+    font-size: 1rem;
+  }
+  .content__div__content{
+max-width: 100%;
+  }
+  .content{
+    padding: 2rem 2rem;
+  }
+  .register h2{
+font-size: 3rem;
+  }
+  .register p{
+    font-size: 1rem;
+  }
 }
