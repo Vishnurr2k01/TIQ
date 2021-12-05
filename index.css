@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+}
+.main__div {
+  height: 100vh;
+  background: radial-gradient(
+    81.82% 118.57% at 6.29% 112.08%,
+    #622b19 2.51%,
+    #532516 44.93%,
+    #7b3c27 100%
+  );
+  padding-left: 6rem;
+  margin-bottom: 0;
+  overflow: hidden;
+}
+.flexdiv {
+  display: flex;
+}
+.navbar ul {
+  display: flex;
+  padding-top: 3rem;
+  align-items: baseline;
+}
+.navbar ul li {
+  list-style-type: none;
+  color: #f8f3e2;
+  font-size: 1rem;
+}
+.navbar ul li span {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: #f8f3e2;
+  margin-left: 3rem;
+}
+.main__div__left__content {
+  color: #f8f3e2;
+}
+.main__div__left__content h2 {
+  font-weight: 500;
+  font-size: 6rem;
+}
+.main__div__left__content span {
+  color: #edca90;
+}
+.main__div__left__content p {
+  font-size: 1rem;
+  color: #edca90;
+  margin-top: -2rem;
+  font-style: italic;
+}
+
+.img1 {
+  position: relative;
+  border-radius: 0 0 150px 150px;
+  height: 50vh;
+  margin-left: 10rem;
+  margin-top: -2rem;
+}
+.img2 {
+  position: relative;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  height: 40vh;
+  margin-top: -3rem;
+  border-radius: 150px 150px 0 0;
+}
+.host-img {
+  border-radius: 50px 50px 0 50px;
+  display: flex;
+  position: relative;
+  margin-right: 10rem;
+  
+  
+  margin-left: auto;
+}
+.host {
+  padding-top: 2rem;
+  position: absolute;
+  right: 7rem;
+  color: #edca90;
+  font-size: 1.2rem;
+}
+
+.about__container {
+  height: 100vh;
+  background: linear-gradient(71.17deg, #edca90 22.2%, #f8d9a8 107.23%);
+}
+.about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: relative;
+  top: 15rem;
+}
+
+.about__left img {
+  width: 20rem;
+  position: relative;
+<<<<<<< HEAD
+  top: 2rem;
+=======
+  top: 3rem;
+>>>>>>> b31ecfdd4b274ab894fde6267400c5d0d399f759
+}
+.logo {
+  position: absolute;
+  top: 50%;
+}
+.about__left {
+  width: 20vw;
+}
+.about__right {
+  width: 50vw;
+}
+.about__right h2 {
+  font-size: 50px;
+}
+.about__right p {
+  color: #1d1b1f;
+  font-size: 18px;
+  text-align: left;
+  line-height: 25px;
+}
+.about__right span {
+  font-weight: bold;
+  color: #532516;
+}
+
+.content {
+  background: #f8f3e2;
+  padding: 5rem 10rem;
+  text-align: center;
+}
+.content__div1 {
+  margin-top: 2rem;
+  /* display: flex; */
+  height: 25vw;
+}
+
+.content__div1 img {
+  float: right;
+  height: 25vw;
+}
+.content__div2 {
+  margin-top: 2rem;
+  height: 25vw;
+}
+.content__div2 img {
+  float: left;
+  height: 25vw;
+}
+
+.content__div__content h2 {
+  color: #532516;
+  font-size: 3rem;
+}
+.content__div__content {
+  max-width: 40vw;
+}
+.content__div__content p {
+  color: #1d1b1f;
+  font-size: 1.3rem;
+}
+
+        /* register */
+
+.register{
+  background: #532516 ;
+  display: flex;
+}
+.register h2{
+  color: #EDCA90;
+  font-size: 4rem;
+}
+.register p{
+  color: #FFFFFF;
+}
+.btn{
+  background: #EDCA90;
+  color: #1D1B1F;
+  padding: 1rem 2.5rem;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  font-size: 1.3rem;
+}
+.register span{
+  color: #E5BAA7;
+}
+.register__content{
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  max-width: 80vw;
+}
+
+
+.footer {
+  background: #3d190e;
+}
+
+.footer__main {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+}
+.footer__left {
+  align-items: center;
+}
+.footer__right {
+  align-items: center;
+}
+.footer__right p {
+  color: #edca90;
+  font-size: 20px;
+  font-weight: 600px;
+  font-family: "Nunito Sans", sans-serif;
+  margin-right: 6rem;
+}
+.footer ul {
+  display: flex;
+  flex-direction: row;
+}
+.footer ul li {
+  list-style-type: none;
+  flex-basis: 2rem;
+  margin-left: 4rem;
+  color: #f8f3e2;
+  font-size: 30px;
+}
+.footer ul li a {
+  text-decoration: none;
+  color: #edca90;
+  font-size: 20px;
+  font-weight: 600px;
+  font-family: "Nunito Sans", sans-serif;
+}
