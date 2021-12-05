@@ -165,12 +165,16 @@ body {
   color: #1d1b1f;
   font-size: 1.3rem;
 }
+/* float box 2 */
+
 
         /* register */
 
 .register{
+  
   background: #532516 ;
   display: flex;
+  
 }
 .register h2{
   color: #EDCA90;
@@ -178,26 +182,31 @@ body {
 }
 .register p{
   color: #FFFFFF;
+  font-size: 1.3rem;
 }
 .btn{
   background: #EDCA90;
   color: #1D1B1F;
-  padding: 1rem 2.5rem;
+  padding: 1rem 3rem;
   font-weight: bold;
   outline: none;
   border: none;
   font-size: 1.3rem;
+  margin-top: 2rem;
 }
 .register span{
   color: #E5BAA7;
+  font-size: 1rem;
 }
 .register__content{
+  padding: 0 2rem;
   margin-top: 10rem;
   margin-bottom: 10rem;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   max-width: 80vw;
+  width: 50rem;
 }
 
 
