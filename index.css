@@ -17,6 +17,7 @@ body {
 }
 .flexdiv {
   display: flex;
+  flex-direction: row;
 }
 .navbar ul {
   display: flex;
@@ -36,6 +37,7 @@ body {
   text-decoration: none;
   color: #f8f3e2;
   margin-left: 3rem;
+  font-family: "Nunito Sans", sans-serif;
 }
 .main__div__left__content {
   color: #f8f3e2;
@@ -48,9 +50,11 @@ body {
   color: #edca90;
 }
 .main__div__left__content p {
-  font-size: 1rem;
+  font-size: 1.3rem;
   color: #edca90;
   margin-top: -2rem;
+  font-style: italic;
+  font-family: "Nunito Sans", sans-serif;
   font-style: italic;
 }
 
@@ -67,7 +71,8 @@ body {
   margin-left: auto;
   margin-right: auto;
   height: 40vh;
-  margin-top: -3rem;
+  width: auto;
+  margin-top: -10rem;
   border-radius: 150px 150px 0 0;
 }
 .host-img {
@@ -75,21 +80,16 @@ body {
   display: flex;
   position: relative;
   margin-right: 10rem;
-  
-  
   margin-left: auto;
 }
 .host {
   padding-top: 2rem;
   position: absolute;
   right: 7rem;
-  color: #edca90;
   font-size: 1.2rem;
 }
-
 .about__container {
   height: 100vh;
-  background: linear-gradient(71.17deg, #edca90 22.2%, #f8d9a8 107.23%);
 }
 .about {
   display: flex;
@@ -102,8 +102,6 @@ body {
 .about__left img {
   width: 20rem;
   position: relative;
-
-
   top: 3rem;
 }
 .logo {
@@ -121,9 +119,11 @@ body {
 }
 .about__right p {
   color: #1d1b1f;
-  font-size: 18px;
+  font-size: 0.3rem;
   text-align: left;
-  line-height: 25px;
+  line-height: 1rem;
+  font-weight: 600;
+  font-family: "Nunito Sans", sans-serif;
 }
 .about__right span {
   font-weight: bold;
@@ -167,26 +167,23 @@ body {
 }
 /* float box 2 */
 
+/* register */
 
-        /* register */
-
-.register{
-  
-  background: #532516 ;
+.register {
+  background: #532516;
   display: flex;
-  
 }
-.register h2{
-  color: #EDCA90;
+.register h2 {
+  color: #edca90;
   font-size: 4rem;
 }
-.register p{
-  color: #FFFFFF;
+.register p {
+  color: #ffffff;
   font-size: 1.3rem;
 }
-.btn{
-  background: #EDCA90;
-  color: #1D1B1F;
+.btn {
+  background: #edca90;
+  color: #1d1b1f;
   padding: 1rem 3rem;
   font-weight: bold;
   outline: none;
@@ -194,11 +191,11 @@ body {
   font-size: 1.3rem;
   margin-top: 2rem;
 }
-.register span{
-  color: #E5BAA7;
+.register span {
+  color: #e5baa7;
   font-size: 1rem;
 }
-.register__content{
+.register__content {
   padding: 0 2rem;
   margin-top: 10rem;
   margin-bottom: 10rem;
@@ -208,7 +205,6 @@ body {
   max-width: 80vw;
   width: 50rem;
 }
-
 
 .footer {
   background: #3d190e;
@@ -250,4 +246,104 @@ body {
   font-size: 20px;
   font-weight: 600px;
   font-family: "Nunito Sans", sans-serif;
+}
+@media only screen and (max-width: 456px) {
+  .main__div {
+    height: 115vh;
+    padding-left: 2rem;
+  }
+  .flexdiv {
+    flex-direction: column;
+  }
+  .navbar ul {
+    padding-top: 3rem;
+  }
+  .navbar ul li span {
+    font-size: 1.5rem;
+  }
+  .navbar ul li a {
+    margin-left: 3rem;
+    font-size: 1rem;
+  }
+  .main__div__left__content h2 {
+    font-size: 3rem;
+    margin-top: 4rem;
+  }
+  .main__div__left__content p {
+    font-size: 0.8rem;
+    margin-top: 2rem;
+  }
+
+  .img1 {
+    position: relative;
+    border-radius: 150px 150px;
+    display: flex;
+    margin-right: 2rem;
+    margin-left: auto;
+    height: 15rem;
+  }
+  .img2 {
+    position: relative;
+    display: flex;
+    margin-left: 1vw;
+    margin-right: auto;
+    height: 10rem;
+    margin-top: 5rem;
+  }
+  .host-img {
+    border-radius: 50px 50px 0 50px;
+    display: flex;
+    position: relative;
+    margin-right: 0;
+    height: 5rem;
+  }
+  .host {
+    padding-top: 2rem;
+    position: absolute;
+    right: 2rem;
+    margin-top: 3.2rem;
+    font-size: 0.8rem;
+  }
+  .about__container {
+    height: 170vh;
+    background: linear-gradient(71.17deg, #edca90 22.2%, #f8d9a8 107.23%);
+  }
+  .about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    top: 5rem;
+  }
+  .about__left img {
+    width: 13rem;
+    display: flex;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    left: 25vw;
+  }
+  .about__right {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    top: 4rem;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80vw;
+  }
+  .about__right h2 {
+    font-size: 3rem;
+  }
+  .about__right p {
+    color: #1d1b1f;
+    font-size: 18px;
+    text-align: left;
+    line-height: 25px;
+  }
+  .about__right span {
+    font-weight: bold;
+    color: #532516;
+  }
 }
