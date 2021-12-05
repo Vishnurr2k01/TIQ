@@ -39,6 +39,15 @@ body {
   margin-left: 3rem;
   font-family: "Nunito Sans", sans-serif;
 }
+.main__btn{
+  background: #EDCA90;
+  color:  #1D1B1F;
+  outline: none;
+  border: none;
+  margin-left: 1rem;
+  padding: 0.5rem 0.7rem;
+  
+}
 .main__div__left__content {
   color: #f8f3e2;
 }
@@ -143,6 +152,10 @@ body {
   background: #f8f3e2;
   padding: 5rem 10rem;
   text-align: center;
+  
+}
+.content-2{
+  width: 70vw;
 }
 .content__div1 {
   margin-top: 2rem;
@@ -282,7 +295,8 @@ body {
     font-size: 0.8rem;
     margin-top: 2rem;
   }
-
+  
+  
   .img1 {
     border-radius: 150px 150px;
     display: flex;
