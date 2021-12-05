@@ -102,11 +102,9 @@ body {
 .about__left img {
   width: 20rem;
   position: relative;
-<<<<<<< HEAD
-  top: 2rem;
-=======
+
+
   top: 3rem;
->>>>>>> b31ecfdd4b274ab894fde6267400c5d0d399f759
 }
 .logo {
   position: absolute;
