@@ -80,16 +80,24 @@ body {
   display: flex;
   position: relative;
   margin-right: 10rem;
+
   margin-left: auto;
 }
 .host {
   padding-top: 2rem;
   position: absolute;
   right: 7rem;
+  color: #edca90;
   font-size: 1.2rem;
 }
+.host p {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: italic;
+}
+
 .about__container {
   height: 100vh;
+  background: linear-gradient(71.17deg, #edca90 22.2%, #f8d9a8 107.23%);
 }
 .about {
   display: flex;
@@ -102,6 +110,7 @@ body {
 .about__left img {
   width: 20rem;
   position: relative;
+
   top: 3rem;
 }
 .logo {
@@ -119,11 +128,11 @@ body {
 }
 .about__right p {
   color: #1d1b1f;
-  font-size: 0.3rem;
+  font-size: 18px;
   text-align: left;
-  line-height: 1rem;
-  font-weight: 600;
+  line-height: 25px;
   font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
 }
 .about__right span {
   font-weight: bold;
@@ -305,8 +314,7 @@ body {
     font-size: 0.8rem;
   }
   .about__container {
-    height: 170vh;
-    background: linear-gradient(71.17deg, #edca90 22.2%, #f8d9a8 107.23%);
+    height: 120vh;
   }
   .about {
     display: flex;
@@ -334,13 +342,11 @@ body {
     width: 80vw;
   }
   .about__right h2 {
-    font-size: 3rem;
+    font-size: 3.4rem;
   }
   .about__right p {
-    color: #1d1b1f;
-    font-size: 18px;
-    text-align: left;
-    line-height: 25px;
+    font-size: 0.95rem;
+    line-height: 1.5rem;
   }
   .about__right span {
     font-weight: bold;
