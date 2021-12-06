@@ -81,7 +81,7 @@ body {
   margin-right: auto;
   height: 40vh;
   width: auto;
-  margin-top: -10rem;
+  margin-top: -5rem;
   border-radius: 150px 150px 0 0;
 }
 .host-img {
@@ -272,10 +272,10 @@ body {
     width: 70vw;
   }
 }
-@media only screen and (max-width: 456px) {
+@media only screen and (max-width: 500px) {
   .main__div {
-    height: 140vh;
-    padding-left: 2rem;
+    height: 100%;
+    padding-left: 1rem;
   }
   .flexdiv {
     flex-direction: column;
@@ -284,11 +284,11 @@ body {
     padding-top: 3rem;
   }
   .navbar ul li span {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   .navbar ul li a {
-    margin-left: 3rem;
-    font-size: 1rem;
+    margin-left: 1rem;
+    font-size: 0.9rem;
   }
   .main__div__left__content h2 {
     font-size: 3rem;
@@ -370,7 +370,7 @@ body {
 
   .content-2 {
     display: block;
-    width: 100vw;
+    width: auto;
   }
   .content__div1 {
     display: flex;
