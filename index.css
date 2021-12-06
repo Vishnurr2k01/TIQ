@@ -154,9 +154,7 @@ body {
   text-align: center;
   
 }
-.content-2{
-  width: 70vw;
-}
+
 .content__div1 {
   margin-top: 2rem;
   /* display: flex; */
@@ -268,6 +266,11 @@ body {
   font-size: 20px;
   font-weight: 600px;
   font-family: "Nunito Sans", sans-serif;
+}
+@media only screen and (max-width: 1000px) {
+  .content-2{
+    width: 70vw;
+  }
 }
 @media only screen and (max-width: 456px) {
   .main__div {
