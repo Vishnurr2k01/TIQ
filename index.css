@@ -271,7 +271,7 @@ body {
 }
 @media only screen and (max-width: 456px) {
   .main__div {
-    height: 115vh;
+    height: 140vh;
     padding-left: 2rem;
   }
   .flexdiv {
@@ -298,7 +298,6 @@ body {
   
   
   .img1 {
-    position: relative;
     border-radius: 150px 150px;
     display: flex;
     margin-right: 2rem;
@@ -312,6 +311,7 @@ body {
     margin-right: auto;
     height: 10rem;
     margin-top: 5rem;
+    border-radius: 150px;
   }
   .host-img {
     border-radius: 50px 50px 0 50px;
@@ -328,7 +328,7 @@ body {
     font-size: 0.8rem;
   }
   .about__container {
-    height: 120vh;
+    height: 130vh;
   }
   .about {
     display: flex;
@@ -337,13 +337,15 @@ body {
     position: relative;
     top: 5rem;
   }
+  .about__left {
+    width: auto;
+  }
   .about__left img {
     width: 13rem;
     display: flex;
     position: relative;
     margin-right: auto;
     margin-left: auto;
-    left: 25vw;
   }
   .about__right {
     display: flex;
@@ -362,53 +364,80 @@ body {
     font-size: 0.95rem;
     line-height: 1.5rem;
   }
-  .about__right span {
-    font-weight: bold;
-    color: #532516;
-  }
-  .content-2{
-    display: block;
 
+  .content-2 {
+    display: block;
+    width: 100vw;
   }
-  .content__div1{
+  .content__div1 {
     display: flex;
     flex-direction: column;
     height: 100%;
   }
-  .content__div2{
+  .content__div2 {
     display: flex;
     flex-direction: column;
     height: 100%;
   }
-  .content-2 img{
-  height: 10rem;
+  .content-2 img {
+    height: 10rem;
     width: 8rem;
     display: flex;
     margin: auto;
   }
-  .content-2 h2{
+  .content-2 h2 {
     font-size: 1.5rem;
   }
-  .content-2 p{
+  .content-2 p {
     font-size: 1rem;
   }
-  .content__div__content{
-max-width: 100%;
+  .content__div__content {
+    max-width: 100%;
   }
-  .content{
+  .content {
     padding: 2rem 2rem;
   }
-  .register h2{
-font-size: 3rem;
+  .register h2 {
+    font-size: 3rem;
   }
-  .register p{
+  .register p {
     font-size: 1rem;
   }
-  .btn{
+  .btn {
     padding: 1rem 1.5rem;
     font-size: 1.3rem;
   }
-  .register span{
+  .register span {
     font-size: 0.8rem;
+  }
+  .footer__main {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer__left {
+    align-items: center;
+  }
+  .footer__right {
+    align-items: center;
+  }
+  .footer__right {
+    display: flex;
+    margin-right: 0;
+    margin-left: auto;
+  }
+  .footer ul li {
+    flex-basis: 0;
+    margin-left: 1.5rem;
+    font-size: 1rem;
+  }
+  .footer ul li span {
+    position: relative;
+    left: -2.5rem;
+  }
+  .footer ul li a {
+    font-size: 1rem;
+    float: right;
+    position: relative;
+    right: -2.5rem;
   }
 }
