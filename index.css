@@ -46,6 +46,7 @@ body {
   border: none;
   margin-left: 1rem;
   padding: 0.5rem 0.7rem;
+  border-radius: 4px;
   
 }
 .main__div__left__content {
