@@ -307,7 +307,7 @@ body {
 }
 .p1 .details {
   font-family: "Nunito Sans", sans-serif;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   font-weight: bold;
   margin-top: -1.5rem;
 }
@@ -648,6 +648,16 @@ body {
   .about__container {
     height: 130vh;
   }
+  .people {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .contact .head {
+    font-size: 2rem;
+     margin-bottom: 4rem;
+  }
+  
   .footer__main {
     display: flex;
     flex-direction: column;
